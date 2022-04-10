@@ -1,0 +1,88 @@
+body {
+  font-family: "Montserrat", serif;
+  color: #404040;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1000px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/Montserrat-Regular.woff2"), url("../../fonts/Montserrat-Regular.woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Vollkorn";
+  src: url("../../fonts/Vollkorn-Regular.woff2"), url("../../fonts/Vollkorn-Regular.woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+.button-reset {
+  background: transparent;
+}
+
+h1,
+h2, h3, h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 23px;
+  line-height: 36px;
+}
+
+.section-container {
+  padding-top: 78px;
+  padding-bottom: 72px;
+}
+
+.section-header {
+  position: relative;
+  margin-bottom: 73px;
+}
+
+.section-header::after {
+  content: "";
+  width: 80px;
+  height: 2px;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.09);
+  z-index: 1;
+}
+
+body {
+  padding-bottom: 500px !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

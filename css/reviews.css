@@ -1,0 +1,101 @@
+.reviews {
+  background-color: #F5F5F5;
+}
+
+.reviews__container {
+  padding-bottom: 98px;
+  padding-top: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reviews__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.reviews__quotes {
+  margin-bottom: 64px;
+  width: 64px;
+  height: 64px;
+}
+
+.reviews__bottom {
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reviews .item {
+  max-width: 447px;
+  padding-left: 54px;
+  padding-right: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reviews .item img {
+  margin-bottom: 10px;
+}
+
+.reviews .item__descr {
+  margin-bottom: 24px;
+  text-align: center;
+  font-family: "Vollkorn", serif;
+  font-size: 26px;
+  line-height: 33px;
+  color: #333333;
+}
+
+.reviews .item__person {
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ababab;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.reviews .item:nth-child(2) {
+  position: relative;
+  padding-left: 70px;
+  padding-right: 68px;
+}
+
+.reviews .item:nth-child(2)::after {
+  content: '';
+  width: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.09);
+}

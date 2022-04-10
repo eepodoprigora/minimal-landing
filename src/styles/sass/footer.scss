@@ -1,0 +1,21 @@
+@import "variables.scss";
+.footer {
+	background-color: $black;
+	&__container {
+		padding-top: 15px;
+		padding-bottom: 75px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	&__logo {
+		margin-bottom: 15px;
+	}
+
+	&__copy {
+		text-align: center;
+		font-size: 15px;
+		font-family: $Vollkorn;
+	}
+}

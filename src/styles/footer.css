@@ -1,0 +1,19 @@
+.footer {
+  background-color: #000000;
+}
+.footer__container {
+  padding-top: 15px;
+  padding-bottom: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__logo {
+  margin-bottom: 15px;
+}
+.footer__copy {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Vollkorn", serif;
+}

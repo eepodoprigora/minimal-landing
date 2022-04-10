@@ -1,0 +1,29 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.burger {
+  display: flex;
+  align-items: center;
+}
+.burger__icon {
+  display: none;
+}
+
+.nav {
+  padding-bottom: 5px;
+}
+.nav__items {
+  display: flex;
+}
+.nav__item {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 20px;
+}
+.nav__item:not(:last-child) {
+  margin-right: 36px;
+}

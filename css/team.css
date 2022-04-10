@@ -1,0 +1,80 @@
+.team__container {
+  padding-bottom: 88px;
+}
+
+.team__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.team .card {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.team .card img {
+  margin-bottom: 19px;
+  height: initial;
+}
+
+.team .card__person-name {
+  margin-bottom: 3.5px;
+}
+
+.team .card__post {
+  margin-bottom: 30px;
+  font-family: "Vollkorn", serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+}
+
+.team .card:first-child {
+  padding-left: 0;
+}
+
+.team .card:last-child {
+  padding-right: 0;
+}
+
+.team .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team .social__item {
+  width: 29px;
+  height: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F5F5F5;
+}
+
+.team .social__item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team .social__item:not(:last-child) {
+  margin-right: 6px;
+}

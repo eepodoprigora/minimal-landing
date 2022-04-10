@@ -1,0 +1,71 @@
+@import "variables.scss";
+
+.reviews {
+	background-color: $mainBg;
+	&__container {
+		padding-bottom: 98px;
+		padding-top: 68px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	&__items {
+		display: flex;
+	}
+	&__quotes {
+		margin-bottom: 64px;
+		width: 64px;
+		height: 64px;
+	}
+	&__bottom {
+		margin-top: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.item {
+		max-width: 447px;
+		padding-left: 54px;
+		padding-right: 54px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		img {
+			margin-bottom: 10px;
+		}
+
+		&__descr {
+			margin-bottom: 24px;
+			text-align: center;
+			font-family: $Vollkorn;
+			font-size: 26px;
+			line-height: 33px;
+			color: $grey;
+		}
+
+		&__person {
+			font-size: 14px;
+			line-height: 20px;
+			text-transform: uppercase;
+			color: #ababab;
+			text-align: center;
+			white-space: nowrap;
+		}
+	}
+	.item:nth-child(2) {
+		position: relative;
+		padding-left: 70px;
+		padding-right: 68px;
+	}
+	.item:nth-child(2)::after {
+		content: '';
+		width: 2px;
+		position: absolute;	
+		top: 0;
+		left: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.09);
+	}
+}

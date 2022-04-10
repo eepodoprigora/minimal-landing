@@ -1,0 +1,61 @@
+@import "variables.scss";
+.feedback {	
+		position: relative;
+	margin-bottom: -1px;
+	background-color: $black;
+	
+	.feedback__container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-top: 68px;
+		padding-bottom: 22px;
+	}
+	&__form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 60%;
+	}
+	&__input {
+		width: 100%;
+		padding: 16px 31px 17px;
+		border: 1px solid transparent;
+		letter-spacing: -0.7px;
+		color: $white;
+	}
+	&__input::placeholder {
+		font-family: $Vollkorn;
+		color: $white;
+		font-size: 16px;
+		line-height: 22px;
+		font-style: italic;
+	}
+	&__input:nth-child(2n + 1) {
+		background-color: $grey2e;
+		border-color: $grey2e;
+	}
+	&__input:nth-child(2n) {
+		background-color: $grey33;
+		border-color: $grey33;
+	}
+
+	&__input--describe {
+		margin-bottom: 22px;
+		padding-top: 18px;
+		resize: none;
+		min-height: 127px;
+	}
+
+	&__send-message {
+		color: $green8b;
+		padding: 15px 60px;
+		font-family: $Vollkorn;
+		font-style: italic;
+		font-size: 16px;
+		letter-spacing: -0.7px;
+		border: 1px solid $green7e;
+		border-bottom: 2px solid $green7e;
+		cursor: pointer;
+	}
+}

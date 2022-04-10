@@ -1,0 +1,57 @@
+@import "variables.scss";
+
+.team {
+	&__container {
+		padding-bottom: 88px;
+	}
+	&__cards {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+	.card {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		img {
+			margin-bottom: 19px;
+			height: initial;
+		}
+		&__person-name {
+			margin-bottom: 3.5px;
+		}
+		&__post {
+			margin-bottom: 30px;
+			font-family: $Vollkorn;
+			font-size: 14px;
+			line-height: 20px;
+			text-align: center;
+			color: $grey;
+		}
+	}
+	.card:first-child {
+		padding-left: 0;
+	}
+	.card:last-child {
+		padding-right: 0;
+	}
+	.social {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		&__item {
+			width: 29px;
+			height: 14px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: $mainBg;
+			a {
+				display: flex;
+			}
+		}
+			&__item:not(:last-child) {
+		margin-right: 6px;
+	}
+	}
+
+}

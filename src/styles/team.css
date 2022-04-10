@@ -1,0 +1,52 @@
+.team__container {
+  padding-bottom: 88px;
+}
+.team__cards {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.team .card {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.team .card img {
+  margin-bottom: 19px;
+  height: initial;
+}
+.team .card__person-name {
+  margin-bottom: 3.5px;
+}
+.team .card__post {
+  margin-bottom: 30px;
+  font-family: "Vollkorn", serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+}
+.team .card:first-child {
+  padding-left: 0;
+}
+.team .card:last-child {
+  padding-right: 0;
+}
+.team .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team .social__item {
+  width: 29px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F5F5;
+}
+.team .social__item a {
+  display: flex;
+}
+.team .social__item:not(:last-child) {
+  margin-right: 6px;
+}
