@@ -37,14 +37,14 @@
   padding-top: 20px;
   padding-right: 28px;
 }
-.get-in-touch__option:nth-child(3) .get-in-touch__icon {
-  margin-bottom: 30px;
-}
 .get-in-touch__option:nth-child(3) .get-in-touch__item {
+  margin-bottom: 8px;
+}
+.get-in-touch__option:nth-child(3) .get-in-touch__item a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 9px;
+  flex-wrap: nowrap;
 }
 .get-in-touch__option:nth-child(3) .get-in-touch__item svg {
   margin-right: 5px;
@@ -57,7 +57,7 @@
   padding-right: 10px;
 }
 .get-in-touch__icon {
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   width: initial;
   height: initial;
 }

@@ -6,7 +6,7 @@
 	background-position: 0 0;
 	background-size: cover;
 
-	.get-in-touch__options{
+	.get-in-touch__options {
 		display: flex;
 		justify-content: space-between;
 		padding-left: 50px;
@@ -38,14 +38,17 @@
 	&__option:nth-child(3) {
 		padding-top: 20px;
 		padding-right: 28px;
-		.get-in-touch__icon {
-			margin-bottom: 30px;
-		}
+		// .get-in-touch__icon {
+		// 	margin-bottom: 30px;
+		// }
 		.get-in-touch__item {
+			margin-bottom: 8px;
+		}
+		.get-in-touch__item a {
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			margin-bottom: 9px;
+			flex-wrap: nowrap;
 		}
 		.get-in-touch__item svg {
 			margin-right: 5px;
@@ -59,7 +62,7 @@
 		}
 	}
 	&__icon {
-		margin-bottom: 25px;
+		margin-bottom: 5px;
 		width: initial;
 		height: initial;
 	}
@@ -77,9 +80,9 @@
 		color: $dark21;
 		font-family: $Vollkorn;
 		font-weight: 400;
-font-size: 17px;
-line-height: 22px;
-white-space: nowrap;
+		font-size: 17px;
+		line-height: 22px;
+		white-space: nowrap;
 	}
 	&__info--social {
 		align-items: flex-start;
